@@ -1,1 +1,1 @@
-<H1>Just to Demonstrate Maven based project deployement to Tomcat server using Jenkins WO SCRIPT</H1>
+<H1>Demo app for auto deployment of maven based project with jenkins in apache tomcat webserver --Cognis</H1>
