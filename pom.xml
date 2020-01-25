@@ -40,6 +40,16 @@
     <version>3.0.2</version>
     </dependency>
   </dependencies>
+  <repositories>
+  <repository>
+     <id>samplejava</id>
+     <name>samplejava-snapshots</name>
+     <snapshots>
+                <enabled>true</enabled>
+     </snapshots>
+     <url>http://54.179.156.95:8081/artifactory/snapshots</url>
+  </repository>
+</repositories>
   <build>
     <finalName>jenkins-tomcat</finalName>
      <plugins>
