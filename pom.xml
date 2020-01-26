@@ -47,7 +47,7 @@
      <snapshots>
                 <enabled>true</enabled>
      </snapshots>
-     <url>http://54.179.156.95:8081/artifactory/snapshots</url>
+     <url>https://repo.maven.apache.org/maven2/</url>
   </repository>
 </repositories>
   <build>
