@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>jenkins-tomcat Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  <url>https://repo.maven.apache.org/maven2/</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -34,7 +34,22 @@
             <version>2.0</version>
             <scope>provided</scope>
         </dependency>
+    <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>3.0.2</version>
+    </dependency>
   </dependencies>
+  <repositories>
+  <repository>
+     <id>samplejava</id>
+     <name>samplejava-snapshots</name>
+     <snapshots>
+                <enabled>true</enabled>
+     </snapshots>
+     <url>https://repo.maven.apache.org/maven2/</url>
+  </repository>
+</repositories>
   <build>
     <finalName>jenkins-tomcat</finalName>
      <plugins>
